@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.section {
+  width: 30%;
+  padding: 20px;
+}
+
+.v1 {
+  border-left: 4px solid green;
+  border-right: 4px solid green;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
