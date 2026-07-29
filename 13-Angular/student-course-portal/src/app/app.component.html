@@ -1,6 +1,14 @@
 <app-header></app-header>
 
-<app-student-dashboard></app-student-dashboard>
+<button (click)="showDashboard = !showDashboard">
+  Toggle Dashboard
+</button>
+
+<hr>
+
+@if (showDashboard) {
+  <app-student-dashboard></app-student-dashboard>
+}
 
 <app-course-list></app-course-list>
 
